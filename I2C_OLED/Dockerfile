@@ -12,6 +12,8 @@ RUN \
 
 RUN git clone https://github.com/georgegougoudis/rpi_i2c_oled.git /I2C_OLED
 
+RUN pip3 install luma.oled
+
 COPY run.sh /
 WORKDIR /data
 RUN chmod a+x /run.sh
