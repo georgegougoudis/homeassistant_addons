@@ -12,7 +12,7 @@ RUN \
 
 RUN git clone https://github.com/georgegougoudis/rpi_i2c_oled.git /I2C_OLED
 
-RUN pip3 install luma.oled
+RUN pip3 install luma.oled --break-system-packages
 
 COPY run.sh /
 WORKDIR /data
