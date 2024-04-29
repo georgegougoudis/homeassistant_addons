@@ -19,10 +19,12 @@ Easiest way to install these addons is to add the repository to Home Assistant:
 
 ## Add-ons provided by this repository
 ### I2C OLED
-Project for displaying onto an I2C OLED on a RPi, SH1106-SSD1306 supported.
+Project for displaying onto an I2C OLED on a RPi, SH1106-SSD1306 supported. Fork of [crismc][original-addon-url] I2C OLED add-on
 
 
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/crismc/homeassistant_addons?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/crismc/homeassistant_addons/total?style=flat-square
 [release-url]: https://github.com/crismc/homeassistant_addons/releases
+
+[original-addon-url]: https://github.com/crismc/rpi_i2c_oled
